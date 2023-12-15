@@ -56,24 +56,13 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: url('img\wp3190739.jpg') no-repeat center center/cover;
-    color: rgb(73, 59, 59);
-    background-color: aquamarine;
+    background: url('wp1813217.jpg') no-repeat center center/cover;
+    color: rgb(251, 194, 194);
     text-align: center;
     padding: 100px 0;
+    height: 100vh; /* Set the height to the viewport height */
+    margin-top: 60px; /* Adjusted margin-top to make room for the fixed navbar */
 }
-
-#background-image {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-size: cover;
-    background-position: center;
-}
-
 
 .why-choose-us {
     background-color: #f9f9f9;
